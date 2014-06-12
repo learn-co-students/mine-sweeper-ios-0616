@@ -1,7 +1,7 @@
 require_relative "spec_helper"
 
-describe "mine_sweeper" do
-  let(:unsweeped_fieled){
+describe MineSweeper do
+  let(:unsweeped_field){
     [
       [0, 0, 0, 0, '*'],
       [0, 0, '*', 0, 0],
@@ -12,16 +12,17 @@ describe "mine_sweeper" do
   }
   let(:sweeped_field) { 
     [
-      [0, 1, 1, 1, '*'],
-      [0, 1, '*', 1, 1],
-      [1, 3, 3, 2, 0],
-      [1, '*', '*', 2, 1],
-      [1, 2, 2, 2, '*']
+      [0,  1,   1,  2, '*'],
+      [0,  1,  '*', 2,  1],
+      [1,  3,   3,  2,  0],
+      [1, '*', '*', 2,  1],
+      [1,  2,   2,  2, '*']
     ] 
   }
+  let(:mine_sweeper_instance) { MineSweeper.new(unsweeped_field) }
 
   it "should increment the spaces" do
-    expect(mine_sweeper(unsweeped_fieled)).to eql(sweeped_field)
+    expect(mine_sweeper_instance.sweep_field).to eql(sweeped_field)
   end
 
 end
