@@ -1,3 +1,24 @@
+# The coordinates for the mine.
+# row_num, col_num # where the mine is
+
+# How I look for diagonals
+# row_num - 1, col_num - 1 # left most tile
+# row_num + 1, col_num + 1 # right most tile
+
+# How I increment each tile in a row once a mine is found.
+# row - 1
+#   col - 1
+#   col
+#   col + 1
+# row
+#   col - 1
+#   col
+#   col + 1
+# row + 1
+#   col - 1
+#   col
+#   col + 1
+
 class MineSweeper
   attr_accessor :field
 
@@ -33,26 +54,3 @@ class MineSweeper
   end
 end 
 
-# row_num - 1, col_num - 1 # left most tile
-# row_num + 1, col_num + 1 # right most tile
-
-# row - 1
-#   col - 1
-#   col
-#   col + 1
-# row
-#   col - 1
-#   col
-#   col + 1
-# row + 1
-#   col - 1
-#   col
-#   col + 1
-
-# puts mine_sweeper([
-#       [0, 0, 0, 0, '*', 0],
-#       [0, 0, '*', 0, "*", 0],
-#       [0, 0, 0, "*", 0, 0],
-#       [0, '*', 0, '*', 0, 0],
-#       [0, 0, "*", 0, 0, '*']
-#     ])
