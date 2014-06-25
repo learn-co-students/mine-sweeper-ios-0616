@@ -22,7 +22,7 @@ describe MineSweeper do
   let(:mine_sweeper_instance) { MineSweeper.new(unsweeped_field) }
 
   it "should increment the spaces" do
-    expect(mine_sweeper_instance.sweep_field).to eql(sweeped_field)
+    expect(mine_sweeper_instance.sweep_field).to eq(sweeped_field)
   end
 
 end
