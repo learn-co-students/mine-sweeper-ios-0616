@@ -1,19 +1,10 @@
-require "pry"
+
 # The coordinates for the mine.
 # row_num, col_num # where the mine is
 
 # How I look for diagonals
 # row_num - 1, col_num - 1 # left most tile
 # row_num + 1, col_num + 1 # right most tile
-# field[0][0]
-
-field =     [
-      [0, 0, 0, 0, '*'],
-      [0, 0, '*', 0, 0],
-      [0, 0, 0, 0, 0],
-      [0, '*', '*', 0, 0],
-      [0, 0, 0, 0, '*']
-    ]
 
 # How I increment each tile in a row once a mine is found.
 # row - 1
