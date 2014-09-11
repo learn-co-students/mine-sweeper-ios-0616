@@ -9,8 +9,7 @@ level: Intermediate
 
 ## Background
 
-Arel accidently placed mines around the campus.  What can we say? Mistakes were made.
-Luckily he mapped out the spots where he placed them in a two dimensional array.
+Arel accidently placed mines around the campus.  What can we say? Mistakes were made. Luckily he mapped out the spots where he placed them in a two dimensional array.
 
 Arel's Map
 ```ruby
