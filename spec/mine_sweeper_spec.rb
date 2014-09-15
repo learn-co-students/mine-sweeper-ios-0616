@@ -1,5 +1,3 @@
-require_relative "spec_helper"
-
 describe MineSweeper do
   let(:unsweeped_field){
     [
