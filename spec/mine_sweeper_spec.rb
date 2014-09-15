@@ -1,6 +1,5 @@
-require_relative "spec_helper"
-
 describe "mine_sweeper" do
+  
   let(:unsweeped_fieled){
     [
       [0, 0, 0, 0, '*'],
