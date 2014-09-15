@@ -1,5 +1,6 @@
 describe MineSweeper do
-  let(:unsweeped_field){
+  
+  let(:unsweeped_fieled){
     [
       [0, 0, 0, 0, '*'],
       [0, 0, '*', 0, 0],
