@@ -1,6 +1,6 @@
 describe MineSweeper do
   
-  let(:unsweeped_fieled){
+  let(:unsweeped_field){
     [
       [0, 0, 0, 0, '*'],
       [0, 0, '*', 0, 0],
@@ -18,6 +18,7 @@ describe MineSweeper do
       [1,  2,   2,  2, '*']
     ] 
   }
+
   let(:mine_sweeper_instance) { MineSweeper.new(unsweeped_field) }
 
   it "should increment the spaces" do

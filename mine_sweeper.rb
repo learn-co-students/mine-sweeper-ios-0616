@@ -1,4 +1,3 @@
-
 # The coordinates for the mine.
 # row_num, col_num # where the mine is
 
@@ -58,3 +57,4 @@ class MineSweeper
     field
   end
 end
+
