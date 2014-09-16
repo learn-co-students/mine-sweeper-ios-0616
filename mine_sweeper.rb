@@ -57,4 +57,3 @@ class MineSweeper
     field
   end
 end
-
