@@ -1,9 +1,4 @@
----
-tags: recursion, todo
-languages: Ruby
-resources: 2
-level: intermediate
----
+
 
 # Mine Sweeper
 
