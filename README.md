@@ -25,4 +25,4 @@ This is going to mean moving through each row on the map until you find a mine a
 ## Resources
 * [Odin Project](http://www.theodinproject.com/) - [Recusion](http://www.theodinproject.com/ruby-programming/recursive-methods)
 * [Joshua Creek's Ruby Kickstart](http://vimeo.com/user3374111/videos) - [Introduction to Recusion](http://vimeo.com/24716767)
-<a href='https://learn.co/lessons/mine-sweeper' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/mine-sweeper' title='Mine Sweeper'>Mine Sweeper</a> on Learn.co and start learning to code for free.</p>
